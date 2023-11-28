@@ -16,7 +16,6 @@ A Hybrid quantum-classical algorithm for generating small molecular drugs using 
 ## Training
 ```
 python QuMoGAN_main.py
-
 ```
 
 ## Prediction
@@ -24,5 +23,3 @@ To run the model against test dataset, make sure the model is fully trained firs
 ```
 python inference.py
 ```
-## Structure
-`main.py` parse the command line arguments and pass it to the `QuMoGAN_main.py` which access generator and discriminator model from `models.py` which inturn access `layers.py` and `utils.py` evaluate the metrics.  
